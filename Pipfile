@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "<2.0"
+scikit-image = "*"
+tifffile = "*"
+matplotlib = "*"
+opencv-python = "*"
+scipy = "*"
+pyscap = "*"
+tqdm = "*"
+pillow = "*"
+qim3d = "*"
+seaborn = "*"
+pingouin = "*"
+exit = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
